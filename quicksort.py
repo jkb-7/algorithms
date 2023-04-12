@@ -10,6 +10,3 @@ def quicksort(array):
     right = [i for i in array if i > pivot]
     
     return quicksort(left) + [pivot] + quicksort(right)
-
-test_array = [2,89,11,123,1782676,0.5]
-print(quicksort(test_array))
